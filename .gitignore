@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# build
+dist/
+build/
+node_modules/
+
+# cache
+.npm
+.eslintcache
+.cache
+
+# Output of 'npm pack'
+*.tgz
