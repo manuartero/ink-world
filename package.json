@@ -7,6 +7,7 @@
   "scripts": {
     "build": "babel index.js --out-dir dist",
     "start": "npm run build && node dist/index.js",
+    "debug": "DEV=true npm start & react-devtools",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "manutero.developer@gmail.com",
